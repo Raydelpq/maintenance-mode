@@ -1,0 +1,27 @@
+{
+    "name": "raydelpq/maintenance-mode",
+    "description": "Activa o desactiva el modo de mantenimiento de una Web",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Raydelpq\\MaintenanceMode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raydel Piloto Quesada",
+            "email": "pilotoraydel@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "^10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Raydelpq\\MaintenanceMode\\MaintenanceModeServiceProvider"
+            ]
+        }
+    }
+}
