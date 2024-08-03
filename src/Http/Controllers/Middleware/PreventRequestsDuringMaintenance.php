@@ -1,6 +1,6 @@
 <?php
 
-namespace RaydelPiloto\MaintenanceMode\Http\Middleware;
+namespace Raydelpq\MaintenanceMode\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance as Middleware;
 
